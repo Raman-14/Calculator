@@ -24,6 +24,7 @@
                 alert(`Success, Custom_eval() ${answer_custom} & eval()${answer} are Equal`)
             else
                 alert(`Wrong, Custom_eval() ${answer_custom} & eval()${answer} are NOT Equal`)
+            console.log(screen.value)
         }
     })
 
